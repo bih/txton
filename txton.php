@@ -1,8 +1,7 @@
 <?php
 /*
-	txton is a REST format that provides data structures.
-	
-	This serves as an alternative to XML, JSON, PHPS, etc as txton provides a much faster alternative, especially for big data sets in terms of data transfer and capability of decoding.
+	txton is a new REST format that is extremely lightweight and extremely fast!
+	http://github.com/bilawal360/txton
 	
 	Developed as a side project by @bilawalhameed
 */

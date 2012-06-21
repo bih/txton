@@ -13,7 +13,7 @@ txton works in two different ways.
 
 When encoding, it only requires one array, but can be converted to two different types of results. One of which is the **structure** and the other being the **string**. The structure is used to decode the string, so therefore both are needed but each can be provided separately.
 
-When decoding, both the structure and string obtained from encoding are required for a successful decode, and then results in the same output you would get from JSON or XML. Though JSON and XML are more stable and support multi-level encoding, txt on still provides a powerful infrastructure for even the most simplest of data transfers.
+When decoding, both the structure and string obtained from encoding are required for a successful decode, and then results in the same output you would get from JSON or XML. Though JSON and XML are more stable and support multi-level encoding, txton still provides a powerful infrastructure for even the most simplest of data transfers.
 
 Use cases
 ---------------------
@@ -25,9 +25,9 @@ Example code
 ---------------------
 We have provided a test example in **example.php** however three functions are all you need to know of.
 
-txton_encode( $array )
-txton_structure( $array )
-txton_decode( $array, $structure )
+	txton_encode( $array )
+	txton_structure( $array )
+	txton_decode( $array, $structure )
 
 Have a play about with it! It's really fun.
 

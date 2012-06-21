@@ -1,4 +1,5 @@
 <?php
+/* An example for using txton which was developed by @bilawalhameed */
 require 'txton.php';
 
 /* @note: Let's make up array data. */
